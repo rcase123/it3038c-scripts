@@ -1,0 +1,2 @@
+﻿ $BODY="This is Robert Case, I'm using a friends burner email for this assignment because I don't want to mess with my main account. This machines IP is 192.168.33.61. User is Administrator. Hostname is casert-win. Powershell version is 7.4. Todays date is Wednesday September 13 2023"
+  Send-MailMessage -To "leonardf@ucmail.uc.edu" -From "aaronsmall30@gmail.com" -Subject "IT3038C Windows SysInfo" -Body $BODY -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential) 
