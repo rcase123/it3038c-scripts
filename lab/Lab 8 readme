@@ -1,0 +1,7 @@
+This script works by scrapping the nike website and showing the title and cost of a new pair of shoes
+
+You first must have requests and beautifulsoup installed to python
+
+I left comments throughout my text explaining each section. But mainly the script scrapes for specified tags and prints the data within that tags
+
+beautifulsoup is how the webscrapping is possible. 
